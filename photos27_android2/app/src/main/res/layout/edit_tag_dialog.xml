@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:padding="16dp"
+        android:text="@string/tag_desc"
+        android:id="@+id/diatext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        />
+    <LinearLayout
+        android:id="@+id/tag_align_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/diatext">
+        <TextView
+            android:padding="16dp"
+            android:text="Location:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            />
+
+        <EditText
+            android:id="@+id/tag_edit_text"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </LinearLayout >
+
+    <LinearLayout
+        android:id="@+id/tag_align_layout_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/tag_align_layout">
+    <TextView
+        android:padding="16dp"
+        android:text="Person:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        />
+
+        <EditText
+            android:id="@+id/tag_edit_text_2"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:padding="16dp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/tag_confirm_change"
+        style="?attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tag_align_layout_2"
+        android:layout_centerHorizontal="true"
+        android:text="Confirm Change" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Photos27</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_item_add_from_existing">Add Files From Existing</string>
+    <string name="camera">Add images from Camera App</string>
+    <string name="tag_desc">Tags should be seperated by a semicolon \";\". Edit tags below:</string>
+    <string name="preference_file_tags">com.rutcs.chrislopresti.photos27.tag_data</string>
+    <string name="search_tags">Search Tags</string>
+    <string name="app_label">Photos27</string>
+    <string name="search_hint">Search Tags</string>
+</resources>

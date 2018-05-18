@@ -1,0 +1,14 @@
+WorkSplit Document Chris Lopresti, Kyle Myers
+
+Window/Features				Partner Responsible		 
+
+Login Page                  Chris Lopresti
+Admin System                Chris Lopresti
+Create Album				Kyle Myers
+Delete Album				Kyle Myers
+Edit/View Album				Kyle Myers
+GUI Design/Front End     	Kyle Myers
+ReadMe.md					Chris Lopresti
+Back End linking			Chris Lopresti
+Additional Photo Features   Chris Lopresti
+Additional Album Features	Kyle Myers

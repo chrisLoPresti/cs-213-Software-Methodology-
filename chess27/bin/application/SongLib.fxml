@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SongLibController">
+   <children>
+      <AnchorPane layoutY="1.0" prefHeight="646.0" prefWidth="592.0">
+         <children>
+            <ListView fx:id="songList" layoutX="22.0" layoutY="55.0" prefHeight="340.0" prefWidth="274.0" />
+            <TextField fx:id="newName" layoutX="62.0" layoutY="429.0" promptText="Enter Song Name" />
+            <TextField fx:id="newArtist" layoutX="62.0" layoutY="473.0" promptText="Enter Artist Name" />
+            <TextField fx:id="newAlbum" layoutX="62.0" layoutY="511.0" promptText="Enter Album Name" />
+            <TextField fx:id="newYear" layoutX="62.0" layoutY="551.0" promptText="Enter Song Year" />
+            <Button fx:id="add" layoutX="62.0" layoutY="592.0" mnemonicParsing="false" onAction="#add" prefHeight="27.0" prefWidth="106.0" text="Add Song" />
+            <TextField fx:id="changeSong" layoutX="346.0" layoutY="429.0" promptText="Change Song Name" />
+            <TextField fx:id="changeArtist" layoutX="346.0" layoutY="473.0" promptText="Change Artist Name" />
+            <TextField fx:id="changeAlbum" layoutX="346.0" layoutY="511.0" promptText="Change Album Name" />
+            <TextField fx:id="changeYear" layoutX="346.0" layoutY="551.0" promptText="Change Song Year " />
+            <Button fx:id="save" layoutX="346.0" layoutY="592.0" mnemonicParsing="false" onAction="#editEntry" text="Save Changes" />
+            <Label fx:id="selectedSong" layoutX="387.0" layoutY="78.0" prefHeight="17.0" prefWidth="177.0" />
+            <Label layoutX="386.0" layoutY="39.0" text="Selected Song" />
+            <Label layoutX="23.0" layoutY="31.0" text="Song Library" />
+            <Label fx:id="selectedArtist" layoutX="385.0" layoutY="129.0" prefHeight="17.0" prefWidth="197.0" />
+            <Label fx:id="selectedAlbum" layoutX="386.0" layoutY="179.0" prefHeight="17.0" prefWidth="189.0" />
+            <Label fx:id="selectedYear" layoutX="382.0" layoutY="232.0" prefHeight="17.0" prefWidth="197.0" />
+            <Label layoutX="301.0" layoutY="78.0" text="Song Name:" />
+            <Label layoutX="306.0" layoutY="129.0" text="Artist:" />
+            <Label layoutX="306.0" layoutY="179.0" text="Album:" />
+            <Label layoutX="306.0" layoutY="232.0" text="Year:" />
+            <Label fx:id="size" layoutX="259.0" layoutY="31.0" />
+            <Label layoutX="131.0" layoutY="31.0" text="Number of Songs" />
+            <Button fx:id="delete" layoutX="383.0" layoutY="296.0" mnemonicParsing="false" onAction="#delete" text="Delete entry" />
+            <Button fx:id="clearNew" layoutX="178.0" layoutY="592.0" mnemonicParsing="false" onAction="#clearNew" text="Clear" />
+            <Button fx:id="clearChange" layoutX="462.0" layoutY="592.0" mnemonicParsing="false" onAction="#clearChange" text="Clear" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

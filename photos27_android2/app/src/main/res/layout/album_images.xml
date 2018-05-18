@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <GridView
+        android:id="@+id/inneralbum_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:numColumns="auto_fit"
+        android:columnWidth="172dp"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:stretchMode="columnWidth"
+        android:background="#ffffff"
+        />
+
+    <include layout="@layout/album_fab_submenu"/>
+
+</RelativeLayout>

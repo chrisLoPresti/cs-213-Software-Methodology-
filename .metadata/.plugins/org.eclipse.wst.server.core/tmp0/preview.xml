@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="chess27Web" name="chess27Web" path="/Users/chrislopresti/Desktop/cs_Assignments/cs213/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/chess27Web" type="j2ee"/>
+</server>

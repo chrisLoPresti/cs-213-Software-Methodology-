@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminController">
+   <children>
+      <AnchorPane layoutY="1.0" prefHeight="450.0" prefWidth="592.0">
+         <children>
+            <ListView fx:id="userList" layoutX="22.0" layoutY="55.0" prefHeight="340.0" prefWidth="276.0" />
+            <TextField fx:id="newUserName" layoutX="372.0" layoutY="212.0" promptText="Enter Username" />
+            <TextField fx:id="newName" layoutX="372.0" layoutY="249.0" promptText="Enter User's Name" />
+            <TextField fx:id="newPassword" layoutX="372.0" layoutY="284.0" promptText="Enter User's Password" />
+            <Button fx:id="addUser" layoutX="372.0" layoutY="326.0" mnemonicParsing="false" onAction="#createUser" prefHeight="27.0" prefWidth="106.0" text="Add User" />
+            <Label fx:id="selectedUsername" layoutX="425.0" layoutY="78.0" prefHeight="17.0" prefWidth="144.0" />
+            <Label layoutX="386.0" layoutY="39.0" text="Selected User" />
+            <Label layoutX="23.0" layoutY="31.0" text="User List" />
+            <Label fx:id="selectedName" layoutX="429.0" layoutY="121.0" prefHeight="17.0" prefWidth="144.0" />
+            <Label fx:id="name" layoutX="313.0" layoutY="121.0" text="User's Name:" />
+            <Label fx:id="username" layoutX="313.0" layoutY="78.0" text="Username:" />
+            <Label fx:id="listSize" layoutX="259.0" layoutY="31.0" />
+            <Label layoutX="131.0" layoutY="31.0" text="Number of Users" />
+            <Button fx:id="delete" layoutX="410.0" layoutY="152.0" mnemonicParsing="false" onAction="#deleteUser" text="Delete User" />
+            <Button fx:id="clearSearch" layoutX="247.0" layoutY="409.0" mnemonicParsing="false" onAction="#clearSearch" text="Clear" />
+            <TextField fx:id="searchUser" layoutX="22.0" layoutY="409.0" prefHeight="27.0" prefWidth="144.0" promptText="Search Username" />
+            <Button fx:id="search" layoutX="175.0" layoutY="409.0" mnemonicParsing="false" onAction="#search" text="Search" />
+            <Button fx:id="logout" layoutX="510.0" layoutY="409.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
+            <Button fx:id="clearNew" layoutX="485.0" layoutY="326.0" mnemonicParsing="false" onAction="#clearNew" text="Clear" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

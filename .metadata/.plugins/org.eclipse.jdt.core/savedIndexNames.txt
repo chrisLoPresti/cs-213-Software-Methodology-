@@ -1,0 +1,6 @@
+INDEX VERSION 1.130+/Users/chrislopresti/Desktop/cs_Assignments/cs213/.metadata/.plugins/org.eclipse.jdt.core
+2614159333.index
+258851177.index
+3181390030.index
+1534501191.index
+276320289.index
