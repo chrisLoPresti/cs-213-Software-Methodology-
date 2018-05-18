@@ -1,6 +1,6 @@
 # README #
 
-Download or clone the chess2y repository to play a game of chess! 
+Download or clone the chess27 repository to play a game of chess! 
 
 ### What is this repository for? ###
 
